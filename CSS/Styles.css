@@ -102,6 +102,7 @@ img {
 @media (max-width: 480px) {
     .Boton1 {
         padding: 1px;
+        border-radius: 5rem;
     }
 }
 
