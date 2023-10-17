@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*Hace que los rems sena iguales a 10 pixeles*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:root {
+    ---color1: #5DADE2;
+    ---color2: #ffffff;
+    ---color3: #000000;
+    ---color4: rgba(93, 173, 226, 0.8);
+    ---fuenteDos: 'Yuji Hentaigana Akari', cursive;
+}
+
+body {
+    background-color: var(---color1);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(---color2);
+    font-family: var(---fuenteDos);
+}
+
+h1 {
+    font-size: 10rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 5rem
+}
+
+p {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Titulo*/
+.Titulo {
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (min-width:720px) {
+    .Titulo {
+        font-size: 7rem;
+    }
+}
+
+.Span1 {
+    font-weight: 900;
+}
+
+/*Imagenes*/
+img {
+    max-width: 100%;
+}
+
+.imagen_1 {
+    background-image: url(../IMG/1.gif);
+    height: 100rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .imagen_1 {
+        height: 60rem;
+    }
+}
+
+.Boton1 {
+    background-color: var(---color1);
+    border-radius: 10rem;
+    border: 0;
+    transition: background-color 0.3s ease-in;
+}
+
+@media (max-width: 480px) {
+    .Boton1 {
+        padding: 1px;
+    }
+}
+
+.Boton1:hover {
+    background-color: var(---color4);
+}
+
+/*Emociones*/
+.Emociones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
