@@ -16,6 +16,7 @@ html {
     ---color3: #000000;
     ---color4: rgba(93, 173, 226, 0.8);
     ---fuenteDos: 'Yuji Hentaigana Akari', cursive;
+    ---FuenteUno: 'Righteous', sans-serif;
 }
 
 body {
@@ -94,7 +95,7 @@ img {
 
 .Boton1 {
     background-color: var(---color1);
-    border-radius: 10rem;
+    border-radius: 20rem;
     border: 0;
     transition: background-color 0.3s ease-in;
 }
@@ -115,4 +116,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Lista_contenido {
+    font-family: var(---FuenteUno);
+    color: var(---color2);
+    font-size: 3rem;
 }
